@@ -1,7 +1,0 @@
-{
-  "buildCommand": "npm install --omit=dev --no-audit --no-fund --registry=https://registry.npmjs.org",
-  "startCommand": "npm start",
-  "healthCheck": {
-    "path": "/api/health"
-  }
-}
