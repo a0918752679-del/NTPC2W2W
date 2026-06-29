@@ -1,0 +1,20 @@
+{
+  "name": "ntpc-noise-top100-zeabur",
+  "version": "1.0.6",
+  "description": "新北市聲音照相百大建議點位平台：Zeabur + Google Sheet 連動版",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "googleapis": "140.0.1",
+    "xlsx": "0.18.5",
+    "cors": "2.8.5"
+  }
+}
